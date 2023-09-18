@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header,
+section h2,
+.contants-methods h3{
+    font-family: 'Bungee', cursive;
+}
+
+
+
+/*Header*/
+header{
+    padding: 16px 0;
+    background-color: rgb(235, 103, 247);
+    color: aliceblue;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-footer{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+
+/*loja*/
+
+section{
+    padding: 16px 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.container img{
+    padding: 0px;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin: 16px;
+    width: 80%;
+}
+
+
+/*Contats*/
+
+.contants-methods{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contants-methods h3{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: rgb(235, 103, 247);
+    border: none;
+}
+
+form button:hover{
+    background-color: rgb(192, 84, 202);
+    cursor: pointer;
+}
+
+form textarea{
+    resize: none;
+}
+
+
+
+.social-links img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+
+.social-links li{
+    display: block;
+}
+
+
+
+
+
+footer{
+    padding: 16px 0;
+    background-color: rgb(235, 103, 247);
+    color: aliceblue;
+}
